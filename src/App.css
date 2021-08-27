@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taprom&display=swap");
+body {
+  font-family: "Skranji", cursive;
+}
+.home {
+  width: 98vw;
+  text-align: center;
+  position: absolute;
+  padding-top: 3rem;
+}
+.card {
+  border-radius: 37px;
+  width: 35%;
+  margin-block-start: 10%;
+  margin-inline: auto;
+  z-index: -1;
+  position: relative;
+  padding: 0.2rem;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image {
+  border-radius: 37px;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title-card {
+  z-index: 100;
+  border-radius: 35px;
+  width: 38%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #7b467b;
+  box-shadow: inset 0px 15px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+  margin: auto;
+  padding: 2% 2%;
+  display: flex;
+  margin-top: -14%;
+  text-align: center;
+}
+.title-card > :nth-child(n) {
+  flex-basis: 100%;
+}
+.title-card > *:nth-child(1) {
+  font-size: 52px;
+  text-align: left;
+}
+.title-card > *:nth-child(2) {
+  text-align: right;
+  font-family: "Taprom", cursive;
+}
+.logo {
+  width: 35%;
+  border-radius: 11px;
+  margin-top: 5%;
+}
+p {
+  margin: 0;
+}
