@@ -47,7 +47,6 @@ const Home = () => {
         </motion.div>
         <motion.div
           variants={labelVariant}
-          className="card"
           initial="hidden"
           animate="show"
           className="title-card"
